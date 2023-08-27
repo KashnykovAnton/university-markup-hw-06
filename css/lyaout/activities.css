@@ -1,0 +1,31 @@
+@media screen and (max-width: 767px) {
+  .activities {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .activities {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .activities {
+    padding-bottom: 120px;
+  }
+
+  .activities-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .activities-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+  .activities-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

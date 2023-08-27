@@ -1,0 +1,140 @@
+.footer {
+  padding: 96px 0;
+  background-color: var(--dark);
+}
+
+.footer-thumb {
+  display: inline-block;
+}
+
+.footer-thumb:first-child {
+  width: 264px;
+}
+
+.footer-text {
+  margin-top: 16px;
+  text-align: left;
+  color: var(--light);
+}
+
+.footer-paragraph-title {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--white-background);
+}
+
+.footer-socials {
+  gap: 16px;
+}
+
+.footer-social-item {
+  flex-basis: calc((100% - 48px) / 4);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--success);
+}
+
+.footer-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-mail {
+  width: 264px;
+  padding: 8px 16px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.48px;
+  color: var(--white-background);
+  border-radius: 4px;
+  border: 1px solid var(--white-background);
+  background-color: transparent;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-mail::placeholder {
+  color: var(--white-background);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.48px;
+  opacity: 0.6;
+}
+
+.footer-mail:focus {
+  outline: none;
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 165px;
+  height: 40px;
+}
+
+.footer-icon {
+  margin-left: 16px;
+  fill: var(--white-background);
+}
+
+@media screen and (max-width: 767px) {
+  .footer-main {
+    text-align: center;
+  }
+
+  .footer-thumb:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  .footer-thumb:first-child {
+    width: 268px;
+  }
+
+  .footer-form {
+    flex-direction: column;
+    gap: 16px;
+    width: 398px;
+  }
+
+  .footer-mail {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .footer-main {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    padding-left: 92px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-main {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-thumb:first-child {
+    margin-right: 120px;
+  }
+
+  .footer-thumb:nth-child(2) {
+    margin-right: 80px;
+  }
+}

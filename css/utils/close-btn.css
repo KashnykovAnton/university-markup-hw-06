@@ -1,0 +1,32 @@
+.button-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--accent);
+  transition: background-color var(--transition-effect),
+    border var(--transition-effect);
+}
+
+.close-icon {
+  fill: var(--dark);
+  transition: fill var(--transition-effect);
+}
+
+.button-close:hover,
+.button-close:focus {
+  border: none;
+  background-color: var(--pressed-state);
+}
+
+.button-close:hover .modal-close-icon,
+.button-close:focus .modal-close-icon {
+  fill: var(--white-background);
+}

@@ -1,0 +1,17 @@
+@import "./base/common.css";
+@import "./base/components.css";
+@import "./base/container.css";
+
+@import "./utils/variables.css";
+@import "./utils/close-btn.css";
+@import "./utils/social-icons.css";
+
+@import "./lyaout/header.css";
+@import "./lyaout/hero.css";
+@import "./lyaout/modal.css";
+@import "./lyaout/benefits.css";
+@import "./lyaout/activities.css";
+@import "./lyaout/team.css";
+@import "./lyaout/customers.css";
+@import "./lyaout/footer.css";
+@import "./lyaout/portfolio.css";
