@@ -69,7 +69,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
@@ -95,9 +95,9 @@
   }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1439px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1439px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1157px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -107,7 +107,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -133,9 +133,9 @@
   }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
-  screen and (min-resolution: 2dppx) and (min-width: 1440px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+  screen and (min-resolution: 2dppx) and (min-width: 1158px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),

@@ -98,10 +98,13 @@
     width: 268px;
   }
 
+  .footer-thumb:last-child {
+    width: 100%;
+  }
+
   .footer-form {
     flex-direction: column;
     gap: 16px;
-    width: 398px;
   }
 
   .footer-mail {
@@ -109,7 +112,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .footer-main {
     display: flex;
     justify-content: flex-start;
@@ -120,7 +123,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
   }

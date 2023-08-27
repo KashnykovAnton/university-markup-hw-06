@@ -3,21 +3,24 @@
     max-width: 428px;
     padding: 0 16px;
     margin: 0 auto;
+    outline: 1px solid red;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
     max-width: 768px;
     padding: 0 16px;
     margin: 0 auto;
+    outline: 1px solid red;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    outline: 1px solid red;
   }
 }
